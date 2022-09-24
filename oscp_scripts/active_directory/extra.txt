@@ -1,0 +1,2 @@
+1) Add-Type -AssemblyName System.IdentityModel
+2) New-Object System.IdentityModel.Tokens.KerberosRequestorSecurityToken -ArgumentList 'HTTP/CorpWebServer.corp.com'
